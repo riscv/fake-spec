@@ -52,7 +52,7 @@ jobs:
 
       # Pull the latest RISC-V Docs container image
       - name: Pull Container
-        run: docker pull riscvintl/riscv-docs-base-container-image:latest
+        run: docker pull ghcr.io/riscv/riscv-docs-base-container-image:latest
 
       # Set VERSION for all builds (manual overrides optional).
       # Tag pushes use the exact tag; PR builds compute next patch.
